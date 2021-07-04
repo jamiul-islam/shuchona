@@ -1,0 +1,38 @@
+/*----------Welcome----------*/
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: orange;
+    font-family: 'Dancing Script', cursive;
+    font-size: 160%;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-right: 2%;
+}
+.half-width img{
+    width: 80%;
+    margin-top: 20px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+}

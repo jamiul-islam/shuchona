@@ -1,4 +1,5 @@
 /*----------Welcome----------*/
+
 body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
@@ -21,6 +22,10 @@ h1 span{
     width: 80%;
     margin-top: 20px;
 }
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
 .flexible-container{
     display: flex;
     margin-bottom: 100px;
@@ -35,4 +40,50 @@ h1 span{
 }
 .top-banner{
     background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+/*----------About----------*/
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+/*----------Experiences----------*/
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+.experience-area h1{
+     margin-left: 5%;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 20px;
+    box-shadow: 5px 7px 40px grey;
+    border-radius: 15px;
+}
+h2{
+    font-size: 40px;
+}
+#student-item{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+#artist-item{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
 }
